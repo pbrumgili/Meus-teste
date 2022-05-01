@@ -1,0 +1,166 @@
+{
+  "id": "1ac96c5c-7f91-46b7-a722-5d461efa12c1",
+  "version": "2.0",
+  "name": "02-Endereçodecobrança",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "75f31efb-c70b-4625-8d8d-9db46184d933",
+    "name": "02-Teste-endereçodecobrançaepagemcheque",
+    "commands": [{
+      "id": "18799587-c0be-44f3-9b96-6325a1f7d09b",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "045aa680-a2bc-4ccb-bee1-e12dbcf29932",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "188762c9-5c88-4ade-ae1f-eef0a278e1bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hovered .replace-2x",
+      "targets": [
+        ["css=.hovered .replace-2x", "css:finder"],
+        ["xpath=//img[@alt='Printed Dress']", "xpath:img"],
+        ["xpath=//ul[@id='homefeatured']/li[3]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a1712de-94e1-44ce-8d7b-00bc2b072d67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "970722e1-9a29-4335-a5db-a8d580a42d25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-medium > span",
+      "targets": [
+        ["css=.button-medium > span", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Proceed to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3678321a-cf3f-4032-be30-a733b5484fbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standard-checkout > span",
+      "targets": [
+        ["css=.standard-checkout > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e84a55-23ce-40dd-962d-22ff684feec1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#address_invoice span",
+      "targets": [
+        ["css=#address_invoice span", "css:finder"],
+        ["xpath=//ul[@id='address_invoice']/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[9]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82f562f2-c7b9-4386-817d-971082d8e363",
+      "comment": "",
+      "command": "click",
+      "target": "css=#submitAddress > span",
+      "targets": [
+        ["css=#submitAddress > span", "css:finder"],
+        ["xpath=//button[@id='submitAddress']/span", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1ca91ce-5fc7-4ac1-a581-f4f5e204839b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(4) > span",
+      "targets": [
+        ["css=.button:nth-child(4) > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/form/p/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21ee23fd-958a-4127-815d-ba60606afe0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cgv",
+      "targets": [
+        ["id=cgv", "id"],
+        ["name=cgv", "name"],
+        ["css=#cgv", "css:finder"],
+        ["xpath=//input[@id='cgv']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-cgv']/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4996a91e-f65b-4b23-a4f1-a055ac909881",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standard-checkout > span",
+      "targets": [
+        ["css=.standard-checkout > span", "css:finder"],
+        ["xpath=//form[@id='form']/p/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74400586-62a2-4be0-b5df-2827ff949998",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pay by check (order processing will be longer)",
+      "targets": [
+        ["linkText=Pay by check (order processing will be longer)", "linkText"],
+        ["css=.cheque", "css:finder"],
+        ["xpath=//div[@id='HOOK_PAYMENT']/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?fc=module&module=cheque&controller=payment']", "xpath:href"],
+        ["xpath=//div[2]/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pay by check (order processing will be longer)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05ba0d53-ec1f-4d54-ac0d-00c8212cec44",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart_navigation span",
+      "targets": [
+        ["css=#cart_navigation span", "css:finder"],
+        ["xpath=//p[@id='cart_navigation']/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'I confirm my order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "28380c7c-14db-4232-8bd0-b3c10a77ed9b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["75f31efb-c70b-4625-8d8d-9db46184d933"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}
